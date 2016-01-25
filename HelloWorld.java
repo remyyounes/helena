@@ -5,26 +5,30 @@ public class HelloWorld {
     System.out.println("Please enter a word or phrase");
     Scanner input=new Scanner(System.in);
     String h=input.next();
-    for (int i=0; i<h.length();i++){
 
-      if(h.contains("a")){
-        System.out.print(h.replace("a"," "));
+    for (int i=0; i<h.length();i++){
+      char lettre = h.charAt(i);
+
+      if( lettre == 'a' ){
+        lettre = '-';
       }
-      if(h.contains("e")){
-        System.out.print(h.replace("e"," "));
+      if( lettre == 'e' ){
+        lettre = '-';
       }
-      if(h.contains("i")){
-        System.out.print(h.replace("i"," "));
+      if( lettre == 'i' ){
+        lettre = '-';
       }
-      if(h.contains("o")){
-        System.out.print(h.replace("o"," "));
+      if( lettre == 'o' ){
+        lettre = '-';
       }
-      if(h.contains("u")){
-        System.out.print(h.replace("u"," "));
+      if( lettre == 'u' ){
+        lettre = '-';
       }
-      if(h.contains("y")){
-        System.out.print(h.replace("y"," "));
+      if( lettre == 'y' ){
+        lettre = '-';
       }
+
+      System.out.println(lettre);
     }
   }
 }
