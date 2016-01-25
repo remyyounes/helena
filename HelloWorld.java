@@ -3,12 +3,12 @@ public class HelloWorld {
 
   public static void main(String[] args) {
     System.out.println("Please enter a word or phrase");
-    Scanner input=new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
     String word = input.next();
 
     while ( word.length() > 0 )  {
-//study while loop
-      for (int i=0; i<word.length();i++) {
+
+      for ( int i = 0; i < word.length(); i++ ) {
         char lettre = word.charAt(i);
 
         if( lettre == 'a' ) {
