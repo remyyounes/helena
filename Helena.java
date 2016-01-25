@@ -1,8 +1,8 @@
 import java.util.Scanner;
-public class Additiontable{
+public class Helena{
   public static void table(){
-    if (i=0;i<10;i++){
+    for (int i=0;i<10;i++){
       System.out.print(i);
     }
   }
-}
+}}
