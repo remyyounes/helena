@@ -4,8 +4,8 @@ public class HelloWorld {
   public static void main(String[] args) {
     System.out.println("Please enter a word or phrase");
     Scanner input=new Scanner(System.in);
-    String word = input.next(); //he
-    // he le na
+    String word = input.next(); 
+
     while ( word.length() > 0 )  {
 
       for (int i=0; i<word.length();i++) {
